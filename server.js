@@ -90,10 +90,10 @@ const path = require("path");
 const app = express();
 
 // ✅ ENV variables
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 const STATIC_DIR = "client";
 // const STATIC_DIR = process.env.STATIC_DIR || "public";
-const DOMAIN = process.env.DOMAIN || "http://localhost:5000";
+const DOMAIN = process.env.DOMAIN || "http://localhost:3000";
 const SECRET_KEY = process.env.SECRET_KEY;
 
 
