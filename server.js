@@ -166,3 +166,11 @@ app.listen(PORT, () => {
 });
 
 console.log("STATIC_DIR:", process.env.STATIC_DIR);
+
+app.get('/', (req, res) => {
+  res.send('Working fine 🚀');
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
+});
